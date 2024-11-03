@@ -2,6 +2,14 @@ const { google } = require("googleapis");
 require("dotenv").config();
 const CronJob = require("cron").CronJob;
 
+const express = require("express");
+const app = express();
+const port = process.env.PORT || 4000;
+
+app.listen(port, () => {
+  console.log(`Listening on port ${port}`);
+});
+
 const oauth2Client = new google.auth.OAuth2(
   process.env.CLIENT_ID,
   process.env.CLIENT_SECRET,
