@@ -1,0 +1,6 @@
+# Ignore environment file
+.env
+
+# Ignore any other sensitive files
+client_secret_*
+refresh.js
