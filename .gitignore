@@ -4,3 +4,5 @@
 # Ignore any other sensitive files
 client_secret_*
 refresh.js
+
+node_modules/
