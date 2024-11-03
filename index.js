@@ -32,7 +32,7 @@ const updateVideo = async () => {
         requestBody: {
           id: "1VDokWmVXs8",
           snippet: {
-            title: `This video has ${stats.viewCount} views`,
+            title: `This video has ${stats.likeCount} likes`,
             categoryId: 28,
           },
         },
